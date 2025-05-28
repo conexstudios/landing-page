@@ -550,7 +550,7 @@ export default function ConexStudiosLanding() {
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                 Más que gestión,{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#47483C] to-[#144378]">
-                  desarrollo real
+                  Calidad Educativa
                 </span>
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
