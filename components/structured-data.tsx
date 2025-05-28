@@ -250,7 +250,7 @@ export function StructuredData() {
     url: "https://conexstudios.com",
     name: "ConexStudios - Plataforma Educativa Integral",
     description:
-      "Transforma tu institución educativa con ConexStudios. Gestión integral de estudiantes, profesores y procesos académicos. +50K estudiantes activos, 500+ instituciones.",
+      "Transforma tu institución educativa con ConexStudios. Gestión integral de estudiantes, profesores y procesos académicos",
     isPartOf: {
       "@id": "https://conexstudios.com/#website",
     },

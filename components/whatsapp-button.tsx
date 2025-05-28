@@ -7,7 +7,7 @@ export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false)
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+573001234567" // Reemplazar con el número real
+    const phoneNumber = "+584144225188" // Reemplazar con el número real
     const message = "¡Hola! Me interesa conocer más sobre ConexStudios para mi institución educativa."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")

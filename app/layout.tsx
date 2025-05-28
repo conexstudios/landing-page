@@ -95,7 +95,7 @@ export const metadata: Metadata = {
     siteName: "ConexStudios",
     title: "ConexStudios - Plataforma Educativa Integral | Transformando la Educación",
     description:
-      "Revoluciona tu institución educativa con ConexStudios. Gestión integral de estudiantes, profesores y procesos académicos. +50K estudiantes activos, 500+ instituciones. Solicita tu demo gratuita.",
+      "Revoluciona tu institución educativa con ConexStudios. Gestión integral de estudiantes, profesores y procesos académicos. Solicita tu demo gratuita.", // +50K estudiantes activos, 500+ instituciones
     images: [
       {
         url: "https://conexstudios.com/og-image.jpg",
@@ -131,15 +131,15 @@ export const metadata: Metadata = {
 
   // Información de contacto y ubicación
   other: {
-    "contact:phone_number": "+57-300-123-4567",
+    "contact:phone_number": "+584144225188",
     "contact:email": "info@conexstudios.com",
-    "contact:country_name": "Colombia",
+    "contact:country_name": "Venezuela",
     "contact:region": "Latinoamérica",
     "business:contact_data:street_address": "Calle 123 #45-67",
-    "business:contact_data:locality": "Bogotá",
-    "business:contact_data:region": "Cundinamarca",
+    "business:contact_data:locality": "Carabobo",
+    "business:contact_data:region": "Valencia",
     "business:contact_data:postal_code": "110111",
-    "business:contact_data:country_name": "Colombia",
+    "business:contact_data:country_name": "Venezuela",
     "geo:position": "4.7110;-74.0721",
     "geo:region": "CO-DC",
     "geo:placename": "Bogotá, Colombia",

@@ -239,7 +239,7 @@ export default function ConexStudiosLanding() {
                       <Users className="w-6 h-6 text-[#144378]" />
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-900">+50K Estudiantes</div>
+                      {/* <div className="font-semibold text-gray-900">+50K Estudiantes</div> */}
                       <div className="text-sm text-gray-500">Conectados diariamente</div>
                     </div>
                   </div>
@@ -259,19 +259,19 @@ export default function ConexStudiosLanding() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="hover:scale-105 transition-transform duration-300">
                 <div className="text-3xl font-bold text-[#144378]">
-                  <AnimatedCounter end={500} suffix="+" />
+                  <AnimatedCounter end={10} suffix="+" />
                 </div>
                 <div className="text-gray-600">Instituciones</div>
               </div>
               <div className="hover:scale-105 transition-transform duration-300">
                 <div className="text-3xl font-bold text-[#144378]">
-                  <AnimatedCounter end={50} suffix="K+" />
+                  <AnimatedCounter end={2} suffix="K+" />
                 </div>
                 <div className="text-gray-600">Estudiantes</div>
               </div>
               <div className="hover:scale-105 transition-transform duration-300">
                 <div className="text-3xl font-bold text-[#144378]">
-                  <AnimatedCounter end={5} suffix="K+" />
+                  <AnimatedCounter end={500} suffix="+" />
                 </div>
                 <div className="text-gray-600">Profesores</div>
               </div>
@@ -755,7 +755,7 @@ export default function ConexStudiosLanding() {
       <WaveSection variant="reverse" />
 
       {/* Pricing */}
-      <AnimatedSection>
+      {/* <AnimatedSection>
         <section id="pricing" className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -852,7 +852,7 @@ export default function ConexStudiosLanding() {
             </div>
           </div>
         </section>
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       <WaveSection />
 
@@ -891,7 +891,6 @@ export default function ConexStudiosLanding() {
       <WaveSection variant="reverse" />
 
       {/* Footer */}
-      <AnimatedSection>
         <footer className="bg-gray-900 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-4 gap-8">
@@ -963,7 +962,6 @@ export default function ConexStudiosLanding() {
             </div>
           </div>
         </footer>
-      </AnimatedSection>
 
       {/* Demo Form Modal */}
       <DemoFormModal isOpen={demoModalOpen} onClose={() => setDemoModalOpen(false)} initialType={demoType} />
