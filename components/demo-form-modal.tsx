@@ -280,7 +280,7 @@ export function DemoFormModal({ isOpen, onClose, initialType = "demo" }: DemoFor
                       id="phone"
                       value={formData.phone}
                       onChange={(e) => handleInputChange("phone", e.target.value)}
-                      placeholder="+57 300 123 4567"
+                      placeholder="+584144225188"
                       className="pl-10"
                     />
                   </div>
@@ -295,13 +295,30 @@ export function DemoFormModal({ isOpen, onClose, initialType = "demo" }: DemoFor
                       <SelectValue placeholder="Selecciona tu país" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="colombia">Colombia</SelectItem>
-                      <SelectItem value="mexico">México</SelectItem>
-                      <SelectItem value="argentina">Argentina</SelectItem>
-                      <SelectItem value="chile">Chile</SelectItem>
-                      <SelectItem value="peru">Perú</SelectItem>
-                      <SelectItem value="ecuador">Ecuador</SelectItem>
-                      <SelectItem value="otros">Otros</SelectItem>
+                      {/* Genera todos los estados de Venezuela */}
+                      <SelectItem value="Amazonas">Amazonas</SelectItem>
+                      <SelectItem value="Anzoátegui">Anzoátegui</SelectItem>
+                      <SelectItem value="Apure">Apure</SelectItem>
+                      <SelectItem value="Aragua">Aragua</SelectItem>
+                      <SelectItem value="Barinas">Barinas</SelectItem>
+                      <SelectItem value="Bolívar">Bolívar</SelectItem>
+                      <SelectItem value="Carabobo">Carabobo</SelectItem>
+                      <SelectItem value="Cojedes">Cojedes</SelectItem>
+                      <SelectItem value="Delta Amacuro">Delta Amacuro</SelectItem>
+                      <SelectItem value="Falcón">Falcón</SelectItem>
+                      <SelectItem value="Guárico">Guárico</SelectItem>
+                      <SelectItem value="La Guaira">La Guaira</SelectItem>
+                      <SelectItem value="Lara">Lara</SelectItem>
+                      <SelectItem value="Mérida">Mérida</SelectItem>
+                      <SelectItem value="Miranda">Miranda</SelectItem>
+                      <SelectItem value="Monagas">Monagas</SelectItem>
+                      <SelectItem value="Nueva Esparta">Nueva Esparta</SelectItem>
+                      <SelectItem value="Portuguesa">Portuguesa</SelectItem>
+                      <SelectItem value="Sucre">Sucre</SelectItem>
+                      <SelectItem value="Táchira">Táchira</SelectItem>
+                      <SelectItem value="Trujillo">Trujillo</SelectItem>
+                      <SelectItem value="Yaracuy">Yaracuy</SelectItem>
+                      <SelectItem value="Zulia">Zulia</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
