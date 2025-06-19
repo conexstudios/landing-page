@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     template: "%s | ConexStudios - Líder en Software Educativo",
   },
   description:
-    "ConexStudios es la plataforma educativa más completa para colegios, universidades e institutos. Gestión de estudiantes, aulas virtuales, evaluaciones adaptativas y comunicación integrada. +500 instituciones confían en nosotros. Prueba gratuita 30 días.",
+    "Optimiza tu institución con el sistema de gestión escolar de ConexStudios: académico, administrativo y en la nube. Fácil, seguro y 100 % adaptado a ti. ",
 
   // Palabras clave estratégicas
   keywords: keywords.join(", "),
