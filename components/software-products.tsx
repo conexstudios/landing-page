@@ -169,7 +169,7 @@ export function SoftwareProducts() {
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
                 Ecosistema{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#47483C] to-[#144378]">
-                  ConexStudios
+                   ConexStudios: software académico y más 
                 </span>
               </h2>
             </div>

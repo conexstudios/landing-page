@@ -178,16 +178,15 @@ export default function ConexStudiosLanding() {
               <AnimatedSection delay={0.3}>
                 <Badge className="mb-6 bg-[#144378]/10 text-[#144378] hover:bg-[#144378]/10 hover:scale-105 transition-all duration-300">
                   <Zap className="w-4 h-4 mr-2" />
-                  Plataforma Educativa del Futuro
+                  Sistema de Gestión Escolar
                 </Badge>
               </AnimatedSection>
 
               <AnimatedSection delay={0.4}>
-                <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                  <TypewriterText text="Conecta tu institución con el" />
+                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                  <TypewriterText text="Conexstudios: Sistema de Gestión Escolar para una educación conectada al futuro" />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#47483C] to-[#144378] animate-pulse">
-                    {" "}
-                    futuro educativo
+                    {" "}  
                   </span>
                 </h1>
               </AnimatedSection>
@@ -229,7 +228,7 @@ export default function ConexStudiosLanding() {
             <AnimatedSection delay={0.5}>
               <div className="relative">
                 <img
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/estudiante-mochila.png?height=500&width=600"
                   alt="Estudiantes universitarios colaborando con tecnología moderna en campus"
                   className="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
                 />
@@ -294,7 +293,7 @@ export default function ConexStudiosLanding() {
           <AnimatedSection>
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Todo lo que necesitas en una plataforma
+                Todo lo que necesitas en un sistema académico en línea 
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 Herramientas poderosas diseñadas específicamente para instituciones educativas modernas
@@ -389,7 +388,7 @@ export default function ConexStudiosLanding() {
           <AnimatedSection>
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Transformando la educación en todo el país
+                Transformando la educación con un sistema educativo en la nube
               </h2>
               <p className="text-xl text-gray-600">Desde colegios rurales hasta universidades metropolitanas</p>
             </div>
@@ -455,7 +454,7 @@ export default function ConexStudiosLanding() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Soluciones para cada tipo de institución
+                Soluciones adaptadas para cada tipo de institución educativa 
               </h2>
               <p className="text-xl text-gray-600">
                 Adaptamos nuestra plataforma a las necesidades específicas de tu institución
@@ -550,7 +549,7 @@ export default function ConexStudiosLanding() {
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                 Más que gestión,{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#47483C] to-[#144378]">
-                  Calidad Educativa
+                  un software de apoyo educativo con calidad 
                 </span>
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -666,7 +665,7 @@ export default function ConexStudiosLanding() {
         <section id="testimonials" className="py-20 bg-gradient-to-br from-[#144378]/5 to-[#47483C]/5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Lo que dicen nuestros clientes</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Lo que opinan nuestros clientes sobre nuestro sistema de gestión escolar </h2>
               <p className="text-xl text-gray-600">Instituciones de todo el país confían en ConexStudios</p>
             </div>
 
@@ -741,7 +740,7 @@ export default function ConexStudiosLanding() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">¿Por qué elegir ConexStudios?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">¿Por qué elegir ConexStudios como tu sistema integrado académico? </h2>
               <p className="text-xl text-gray-600">Comparamos con las principales plataformas educativas del mercado</p>
             </div>
           </AnimatedSection>
@@ -862,7 +861,7 @@ export default function ConexStudiosLanding() {
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 animate-pulse">
-              ¿Listo para transformar tu institución?
+              ¿Listo para transformar tu institución con el mejor software académico? 
             </h2>
             <p className="text-xl text-white/80 mb-8">
               Únete a cientos de instituciones que ya están revolucionando la educación con ConexStudios
