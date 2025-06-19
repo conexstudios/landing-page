@@ -59,7 +59,7 @@ const keywords = [
 export const metadata: Metadata = {
   // Metadatos básicos optimizados
   title: {
-    default: "Revoluciona tu colegio con el mejor Sistema de Gestión Escolar",
+    default: "Sistema de Gestión Escolar en la nube | ConexStudios",
     template: "%s | ConexStudios - Líder en Software Educativo",
   },
   description:
