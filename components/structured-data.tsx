@@ -70,7 +70,7 @@ export function StructuredData() {
       },
     ],
     sameAs: [
-      "https://www.facebook.com/ConexStudios",
+      "https://www.facebook.com/softwareconexstudios/",
       "https://www.twitter.com/ConexStudios",
       "https://www.linkedin.com/company/conexstudios",
       "https://www.instagram.com/conexstudios",

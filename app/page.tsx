@@ -18,6 +18,7 @@ import {
   FileText,
   Award,
   Zap,
+  Link,
 } from "lucide-react"
 import { useState, useEffect } from "react"
 import { AnimatedSection } from "@/components/animated-section"
@@ -30,6 +31,7 @@ import { ComparisonTable } from "@/components/comparison-table"
 import { DemoFormModal } from "@/components/demo-form-modal"
 import { ProcessFlow } from "@/components/process-flow"
 import { SoftwareProducts } from "@/components/software-products"
+import { url } from "inspector"
 
 export default function ConexStudiosLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -397,8 +399,8 @@ export default function ConexStudiosLanding() {
           <div className="grid md:grid-cols-3 gap-8">
             <AnimatedSection delay={0.1}>
               <div className="relative group">
-                <img
-                  src="/placeholder.svg?height=300&width=400"
+                <img height={300}
+                  src="/niña-aula.jpg"
                   alt="Aula moderna de colegio con estudiantes usando tablets y tecnología interactiva"
                   className="rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-500"
                 />
@@ -413,8 +415,8 @@ export default function ConexStudiosLanding() {
 
             <AnimatedSection delay={0.2}>
               <div className="relative group">
-                <img
-                  src="/placeholder.svg?height=300&width=400"
+                <img height={300}
+                  src="/campus.jpg"
                   alt="Campus universitario con estudiantes caminando y usando dispositivos móviles"
                   className="rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-500"
                 />
@@ -429,8 +431,8 @@ export default function ConexStudiosLanding() {
 
             <AnimatedSection delay={0.3}>
               <div className="relative group">
-                <img
-                  src="/placeholder.svg?height=300&width=400"
+                <img height={300} 
+                  src="/grupo-estudiantes.png"
                   alt="Laboratorio de instituto técnico con estudiantes trabajando en proyectos prácticos"
                   className="rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-500"
                 />
@@ -902,13 +904,14 @@ export default function ConexStudiosLanding() {
                 </div>
                 <p className="text-gray-400 mb-4">Conectando el futuro de la educación, una institución a la vez.</p>
                 <div className="flex space-x-4">
-                  {["f", "t", "in"].map((social, index) => (
-                    <div
+                  
+                  {[{"name":"f", url: "https://www.facebook.com/softwareconexstudios/"}, {"name": "t", url: "https://www.instagram.com/conexstudios/"}, {"name":"in", url: "https://www.linkedin.com/company/conexstudios"}].map((social, index) => (
+                    <Link to={social.url}
                       key={index}
                       className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#144378] transition-all duration-300 hover:scale-110 cursor-pointer"
                     >
-                      <span className="text-xs">{social}</span>
-                    </div>
+                      <span className="text-xs">{social.name}</span>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -946,7 +949,7 @@ export default function ConexStudiosLanding() {
             </div>
 
             <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400">© 2024 ConexStudios. Todos los derechos reservados.</p>
+              <p className="text-gray-400">© 2025 ConexStudios. Todos los derechos reservados.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 {["Privacidad", "Términos", "Cookies"].map((link, index) => (
                   <a
